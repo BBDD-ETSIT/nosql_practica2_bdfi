@@ -3,6 +3,9 @@
     "version": "0.0.0",
     "description": "autoCOREctor de la asignatura de BBDD (UPM)",
     "main": "dist/index.js",
+    "disableHashCheck": true,
+    "capturesFolder": "miscapturas",
+    "capturesNumber": 2,
     "bin": {
         "autocorector": "./dist/index.js"
     },
@@ -13,36 +16,13 @@
     "author": "ging",
     "license": "GNU",
     "info": {
-        "githubURL": "ebarra/nosql_practica2_bdfi",
-        "serverUrl": "https://autocorector.dit.upm.es/",
+        "githubURL": "BBDD-ETSIT/nosql_practica2_bdfi",
+        "serverUrl": "https://aat.dit.upm.es/",
         "courseId": "899",
-        "assignmentId": "7761"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/ging/autoCOREctor",
-        "directory": "client"
+        "assignmentId": "12482"
     },
     "dependencies": {
-        "body-parser": "~1.12.4",
-        "ejs": "^3.0.1",
-        "express": "~4.13.1",
-        "method-override": "^2.3.1",
-        "mocha": "^7.0.1",
-        "mongoose": "^6.0.13",
-        "mongoose-data-seed": "^2.1.6",
-        "nodemon": "^2.0.2",
-        "popper.js": "^1.16.1",
-        "autocorector": "^1.3.0"
-    },
-    "scripts": {
-        "start": "node rest_server.js",
-        "seed": "md-seed run",
-        "test": "autocorector",
-        "upload": "autocorector -u",
-        "test:old": "nodemon --exec 'mocha -R min'"
-    },
-    "mdSeed": {
-        "seedersFolder": "./seeders"
+        "mongoose": "^6.7.1",
+        "autocorector": "^3.1.4"
     }
 }
