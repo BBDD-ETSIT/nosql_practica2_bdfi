@@ -4,4 +4,4 @@
 
 <br/><br/><br/>
 
-# nosql_practica2_sibd
+# nosql_practica2_bdfi
